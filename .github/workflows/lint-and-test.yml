@@ -1,8 +1,6 @@
 name: ct-linting-and-testing
 on:
-  pull_request:
-    paths:
-      - "charts/**"
+ workflow_dispatch
 
 permissions: read-all
 
