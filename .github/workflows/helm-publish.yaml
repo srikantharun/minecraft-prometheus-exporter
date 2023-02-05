@@ -1,11 +1,8 @@
 ---
 name: chart-publish
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "charts/**"
+  workflow_dispatch
+
 env:
   HELM_DOCS_VERSION: "1.11.0"
 
